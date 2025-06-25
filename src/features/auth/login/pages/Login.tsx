@@ -1,5 +1,7 @@
 import { User, Lock } from 'lucide-react';
 import { useLoginController } from '../controllers/useLoginController';
+import { Link } from 'react-router';
+import { routes } from '@constants/routes';
 
 export const Login = () => {
   const { register, handleSubmit, onSubmit, showErrorMessages } =
@@ -39,9 +41,12 @@ export const Login = () => {
           </button>
           <p className="text-sm text-center text-gray-600">
             Não tem uma conta?{' '}
-            <a href="#" className="text-blue-600 hover:underline">
+            <Link
+              className="text-blue-600 hover:underline"
+              to={routes.Register}
+            >
               Cadastre-se
-            </a>
+            </Link>
           </p>
         </form>
         {showErrorMessages.length > 0 && (

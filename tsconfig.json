@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "@constants/*": ["constants/*"],
+    }
   },
   "files": [],
   "references": [
