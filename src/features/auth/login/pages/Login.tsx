@@ -18,7 +18,7 @@ export const Login = () => {
             <User className="mr-2" />
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Nome de usuário"
               {...register('username')}
               className="bg-transparent outline-none focus:outline-none focus:ring-0"
             />
@@ -27,7 +27,7 @@ export const Login = () => {
             <Lock className="mr-2" />
             <input
               type="password"
-              placeholder="Password"
+              placeholder="Senha"
               {...register('password')}
               className="bg-transparent outline-none focus:outline-none focus:ring-0"
             />
