@@ -4,6 +4,10 @@
     "baseUrl": "src",
     "paths": {
       "@constants/*": ["constants/*"],
+      "@features/*": ["features/*"],
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@services/*": ["services/*"],
     }
   },
   "files": [],
