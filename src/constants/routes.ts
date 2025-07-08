@@ -1,4 +1,7 @@
 export const routes = {
-  Login: '/login',
-  Register: '/register',
+  Login: '/entrar',
+  Register: '/cadastro',
+  Home: '/inicio',
+  Cart: '/carrinho',
+  User: '/usuario',
 };
