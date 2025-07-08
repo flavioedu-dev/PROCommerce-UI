@@ -7,6 +7,8 @@
       "@components/*": ["components/*"],
       "@hooks/*": ["hooks/*"],
       "@services/*": ["services/*"],
+      "@layouts/*": ["layouts/*"],
+      "@utils/*": ["utils/*"],
     },
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
