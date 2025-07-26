@@ -39,7 +39,7 @@ export const Menu = () => {
             <User />
           </Link>
           <Link
-            to={routes.Cart}
+            to={routes.Bag}
             className="p-2 bg-primary-background rounded shadow cursor-pointer transition duration-200 hover:scale-105"
           >
             <ShoppingBag />
